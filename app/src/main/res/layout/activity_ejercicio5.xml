@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ejercicio5">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow android:background="#3C3ECF">
+
+            <TextView
+                android:padding="8dp"
+                android:text="4" />
+
+            <TextView
+                android:padding="8dp"
+                android:text="Car123los" />
+
+            <TextView
+                android:padding="8dp"
+                android:text="AJa" />
+        </TableRow>
+
+        <!-- Encabezado -->
+        <TableRow android:background="#CCCCCC">
+
+            <TextView
+                android:padding="8dp"
+                android:text="Id"
+                android:textStyle="bold" />
+
+            <TextView
+                android:padding="8dp"
+                android:text="Marca"
+                android:textStyle="bold" />
+
+            <TextView
+                android:padding="8dp"
+                android:text="Modelo"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <!-- Fila 1 -->
+        <TableRow android:background="#3CCF40">
+
+            <TextView
+                android:padding="8dp"
+                android:text="1" />
+
+            <TextView
+                android:padding="8dp"
+                android:text="Auto" />
+
+            <TextView
+                android:padding="8dp"
+                android:text="M1-1" />
+        </TableRow>
+
+        <!-- Fila 1 -->
+        <TableRow android:background="#CF3C43">
+
+            <TextView
+                android:padding="8dp"
+                android:text="2" />
+
+            <TextView
+                android:padding="8dp"
+                android:text="Ferrari" />
+
+            <TextView
+                android:padding="8dp"
+                android:text="F1" />
+        </TableRow>
+
+        <!-- Fila 1 -->
+        <TableRow android:background="#CF3CAF">
+
+            <TextView
+                android:padding="8dp"
+                android:text="3" />
+
+            <TextView
+                android:padding="8dp"
+                android:text="Chevrolet" />
+
+            <TextView
+                android:padding="8dp"
+                android:text="ML1" />
+        </TableRow>
+
+        <!-- Fila 1 -->
+        <TableRow android:background="#3C3ECF">
+
+            <TextView
+                android:padding="8dp"
+                android:text="4" />
+
+            <TextView
+                android:padding="8dp"
+                android:text="Car123los" />
+
+            <TextView
+                android:padding="8dp"
+                android:text="AJa" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
+        android:layout_marginBottom="16dp"
+        android:text="Volver al Menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
